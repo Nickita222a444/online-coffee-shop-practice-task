@@ -54,6 +54,12 @@ header {
   margin-right: 40px;
   vertical-align: middle;
 }
+#header-menu li:nth-child(5) {
+  margin-right: 20px;
+}
+#header-menu li:last-child {
+  margin-right: 0;
+}
 
 .container {
   max-width: 1240px;
@@ -64,31 +70,110 @@ header {
   height: 100vh;
   background-color: #EEEFF1;
 }
+#greeting-sec h1 {
+  font-size: 124px;
+  line-height: 140px;
+  margin-bottom: 30px;
+}
+#greeting-sec p {
+  font-size: 24px;
+  color: #64646A;
+  margin-bottom: 30px;
+}
+
+#greeting-info {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  max-width: 1240px;
+  transform: translateY(-50%);
+  margin: 0 -5px;
+}
 
 #backet-btn {
   border-radius: 50%;
   background-color: #FFFFFF;
   height: 56px;
+  position: relative;
 }
 #backet-btn img {
-  vertical-align: center;
   padding: 16px;
 }
 
-#voucher {
-  position: relative;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #1B1B1D;
   height: 56px;
   width: 208px;
   border-radius: 63px;
-  padding: auto;
 }
-#voucher a {
+.btn a {
+  text-decoration: none;
   position: absolute;
-  color: #FFFFFF;
-  padding: 15px 30px 15px 30px;
+  color: #FFFFFF !important;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+#voucher-btn {
+  height: 56px;
+  width: 208px;
+  border-radius: 63px;
+}
+#voucher-btn a {
+  color: #FFFFFF !important;
+}
+
+#download-btn {
+  height: 70px;
+  width: 225px;
+  border-radius: 126px;
+  margin-right: 30px;
+}
+
+#shop-link {
+  font-size: 18px;
+  color: #1B1B1D;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #1B1B1D;
+}
+
+.greeting-links {
+  display: flex;
+  align-items: center;
+}
+
+#greeting-imgs {
+  position: relative;
+}
+#greeting-imgs img:last-child {
+  right: 0;
+  position: absolute;
+  top: 31px;
+}
+
+#circles {
+  position: absolute;
+  top: 92px;
+  right: 42px;
+}
+
+#rating {
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  font-size: 19px;
+  color: #64646A;
+  width: 272.1px;
+  height: 140px;
+  padding: 20px 20.05px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 391px;
+  left: 42px;
 }
 
 /*# sourceMappingURL=main.css.map */
