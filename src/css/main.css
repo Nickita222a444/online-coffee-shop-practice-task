@@ -244,4 +244,34 @@ h2 {
   margin-right: 0;
 }
 
+#order-sec {
+  margin-bottom: 40px;
+}
+#order-sec h3 {
+  font-size: 64px;
+  line-height: 70px;
+}
+#order-sec p {
+  position: relative;
+  top: 30px;
+  font-size: 24px;
+  color: #64646A;
+  line-height: 34px;
+  margin-bottom: 60px;
+}
+
+#order-info {
+  position: relative;
+  display: inline-block;
+  width: 513px;
+  top: 15px;
+  vertical-align: top;
+}
+
+#order-btn {
+  width: 191px;
+  height: 70px;
+  border-radius: 97px;
+}
+
 /*# sourceMappingURL=main.css.map */
