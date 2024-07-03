@@ -308,3 +308,63 @@ footer
     opacity: 0.2
     margin-top: 80px
     margin-bottom: 40px
+
+#feedback
+    .container
+        margin-top: 30px
+    h2
+        width: 454px
+        line-height: 70px
+        text-align: center
+        margin: 0 auto 40px auto
+    #rate-info
+        display: flex
+        justify-content: center
+        margin-bottom: 70px
+    #customers-rate
+        font-weight: 600
+        font-size: 40px
+        margin-right: 24px
+        ~div
+            display: flex
+            flex-direction: column
+            img
+                width: 120px
+    #reviews-count-info
+        color: $grey
+        font-size: 20px
+    .swiper
+        position: relative
+        width: 1030px
+    .swiper-slide
+        width: 500px !important
+        
+        article
+            border-radius: 16px
+            box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15)
+            height: 648px
+        h4
+            font-size: 24px
+            margin-right: 16px
+        .feedback-header
+            display: flex
+            align-items: center
+            margin-top: 40px
+            margin-left: 43px
+        p
+            font-size: 20px
+            margin-top: 32px
+            width: 387px
+            margin-left: 43px
+    #cards
+        position: relative
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev
+        &::after
+            display: none
+    
+    .swiper-button-prev, .swiper-button-next
+        top: 50% !important
+        &::after
+            display: none
+    

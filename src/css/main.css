@@ -394,4 +394,75 @@ footer p {
   margin-bottom: 40px;
 }
 
+#feedback .container {
+  margin-top: 30px;
+}
+#feedback h2 {
+  width: 454px;
+  line-height: 70px;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+#feedback #rate-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+#feedback #customers-rate {
+  font-weight: 600;
+  font-size: 40px;
+  margin-right: 24px;
+}
+#feedback #customers-rate ~ div {
+  display: flex;
+  flex-direction: column;
+}
+#feedback #customers-rate ~ div img {
+  width: 120px;
+}
+#feedback #reviews-count-info {
+  color: #64646A;
+  font-size: 20px;
+}
+#feedback .swiper {
+  position: relative;
+  width: 1030px;
+}
+#feedback .swiper-slide {
+  width: 500px !important;
+}
+#feedback .swiper-slide article {
+  border-radius: 16px;
+  box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+  height: 648px;
+}
+#feedback .swiper-slide h4 {
+  font-size: 24px;
+  margin-right: 16px;
+}
+#feedback .swiper-slide .feedback-header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 43px;
+}
+#feedback .swiper-slide p {
+  font-size: 20px;
+  margin-top: 32px;
+  width: 387px;
+  margin-left: 43px;
+}
+#feedback #cards {
+  position: relative;
+}
+#feedback .swiper-button-next::after, #feedback .swiper-rtl .swiper-button-prev::after {
+  display: none;
+}
+#feedback .swiper-button-prev, #feedback .swiper-button-next {
+  top: 50% !important;
+}
+#feedback .swiper-button-prev::after, #feedback .swiper-button-next::after {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

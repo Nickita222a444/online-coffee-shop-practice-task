@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/main.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script type="module" src="/src/js/swiper.js"></script>
     <title>Online Coffee Shop</title>
   </head>
   <body>
@@ -125,6 +130,77 @@
           </p>
           <div class="btn" id="order-btn">
             <a href="">Order now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feedback">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <article id="rate-info">
+          <span id="customers-rate">4.9</span>
+          <div>
+            <img src="/img/stars-rate.svg" alt="" />
+            <span id="reviews-count-info">based on 2452+ reviews</span>
+          </div>
+        </article>
+        <div id="cards">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="feedback-card">
+                  <img
+                    src="/img/feedback-img-1.svg"
+                    alt="The picture of our client"
+                  />
+                  <div class="feedback-header">
+                    <h4>Brooklyn Simmons</h4>
+                    <img src="/img/stars-rate.svg" alt="" />
+                  </div>
+
+                  <p>
+                    “Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia”
+                  </p>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="feedback-card">
+                  <img
+                    src="/img/feedback-img-2.svg"
+                    alt="The picture of our client"
+                  />
+                  <div class="feedback-header">
+                    <h4>Imam White</h4>
+                    <img src="/img/stars-rate.svg" alt="" />
+                  </div>
+
+                  <p>
+                    “Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia”
+                  </p>
+                </article>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next">
+            <img
+              src="/img/arrow-right.svg"
+              alt="The icon of a right-directed arrow"
+            />
+          </div>
+          <div class="swiper-button-prev">
+            <img
+              src="/img/arrow-left.svg"
+              alt="The icon of a left-directed arrow"
+            />
           </div>
         </div>
       </div>
