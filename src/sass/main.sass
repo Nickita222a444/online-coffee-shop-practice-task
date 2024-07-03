@@ -9,6 +9,9 @@ $grey: #64646A
     margin: 0
     padding: 0
 
+body
+    font-size: 100%
+
 header
     padding-top: 24px
 
@@ -32,7 +35,7 @@ header
             margin-right: 0
 
 .container
-    max-width: 1240px
+    max-width: 82%
     margin: auto
 
 #greeting-sec
@@ -313,7 +316,6 @@ footer
     .container
         margin-top: 30px
     h2
-        width: 454px
         line-height: 70px
         text-align: center
         margin: 0 auto 40px auto
@@ -335,14 +337,15 @@ footer
         font-size: 20px
     .swiper
         position: relative
-        width: 1030px
+        width: 82%
+        
     .swiper-slide
-        width: 500px !important
+        // width: % !important
         
         article
             border-radius: 16px
             box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15)
-            height: 648px
+            height: 100%
         h4
             font-size: 24px
             margin-right: 16px
@@ -351,6 +354,8 @@ footer
             align-items: center
             margin-top: 40px
             margin-left: 43px
+        .client-logo
+            width: 100%
         p
             font-size: 20px
             margin-top: 32px
@@ -367,4 +372,6 @@ footer
         top: 50% !important
         &::after
             display: none
+
+@import "media"
     
