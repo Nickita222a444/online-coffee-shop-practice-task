@@ -1,4 +1,4 @@
-@media (min-width: 340px) {
+@media (min-width: 340px) and (max-width: 479px) {
   #feedback .container {
     margin-top: 60px !important;
   }
@@ -45,7 +45,7 @@
     font-size: 1.7rem;
   }
 }
-@media (min-width: 480px) and (orientation: landscape) {
+@media (min-width: 480px) and (orientation: landscape) and (max-width: 999px) {
   #feedback .container {
     margin-top: 12px !important;
   }
@@ -68,13 +68,14 @@
     bottom: 13px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1365px) {
   #feedback .container {
     margin-top: 36px !important;
   }
   #feedback h2 {
     font-size: 3rem !important;
     line-height: 70px !important;
+    margin-bottom: min(40px, 3%) !important;
   }
   #feedback h4 {
     display: inline !important;
@@ -88,6 +89,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 14px !important;
+    margin-top: min(40px, 5%) !important;
   }
   #feedback .feedback-header img {
     margin-right: 5px !important;
@@ -104,6 +106,29 @@
   #feedback p {
     font-size: 20px !important;
     line-height: 23px;
+    max-width: 100%;
+    margin-left: min(14px, 3%) !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .swiper-slide {
+    transform: scale(0.9) !important;
+  }
+  #rate-info {
+    margin-bottom: 0 !important;
+  }
+  h2 {
+    font-size: 2.8rem !important;
+    margin-bottom: 8px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .swiper-slide p {
+    width: 90% !important;
+  }
+  .feedback-header {
+    justify-content: space-between;
+    margin-right: 3%;
   }
 }
 
