@@ -252,9 +252,13 @@ h2 {
 #order-sec {
   margin-bottom: 40px;
 }
+#order-sec .container {
+  display: flex;
+}
 #order-sec h3 {
   font-size: 64px;
   line-height: 70px;
+  display: inline;
 }
 #order-sec p {
   position: relative;
@@ -264,11 +268,13 @@ h2 {
   line-height: 34px;
   margin-bottom: 60px;
 }
+#order-sec img {
+  max-height: 472px;
+}
 
 #order-info {
   position: relative;
   display: inline-block;
-  width: 513px;
   top: 15px;
   vertical-align: top;
 }
@@ -473,7 +479,7 @@ footer p {
     margin-top: 60px !important;
   }
   #feedback h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 auto 10px auto !important;
     line-height: 45px !important;
   }
@@ -512,7 +518,15 @@ footer p {
     margin-top: 90px !important;
   }
   #feedback h2 {
-    font-size: 1.7rem;
+    font-size: 3rem;
+  }
+  #feedback .swiper-slide p {
+    width: 90% !important;
+    margin-left: 14px !important;
+  }
+  #feedback .feedback-header {
+    margin-left: 14px !important;
+    margin-top: 14px !important;
   }
 }
 @media (min-width: 480px) and (orientation: landscape) and (max-width: 999px) {
@@ -599,6 +613,59 @@ footer p {
   .feedback-header {
     justify-content: space-between;
     margin-right: 3%;
+  }
+}
+@media (min-width: 340px) and (max-width: 479px) {
+  #order-sec .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #order-sec .container h3 {
+    font-size: 2rem !important;
+    line-height: 45px !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #order-sec .container img {
+    max-height: 400px !important;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (orientation: portrait) and (max-width: 999px) {
+  #order-sec .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #order-sec .container h3 {
+    font-size: 3rem !important;
+    line-height: 70px !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #order-sec .container img {
+    max-height: 400px !important;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1365px) {
+  #order-sec p {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 3rem !important;
+    line-height: 70px !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+  h3 {
+    font-size: 2.8rem !important;
+    line-height: 60px !important;
   }
 }
 

@@ -190,10 +190,14 @@ h2
     margin-right: 0
 
 #order-sec
+    .container
+        display: flex
+        // flex-wrap: wrap
     margin-bottom: 40px
     h3
         font-size: 64px
         line-height: 70px
+        display: inline
     p
         position: relative
         top: 30px
@@ -201,11 +205,13 @@ h2
         color: $grey
         line-height: 34px
         margin-bottom: 60px
+    img
+        max-height: 472px
 
 #order-info
     position: relative
     display: inline-block
-    width: 513px
+    // width: 50%
     top: 15px
     vertical-align: top
 
@@ -374,4 +380,5 @@ footer
             display: none
 
 @import "media/feedback"
+@import "media/order"
     

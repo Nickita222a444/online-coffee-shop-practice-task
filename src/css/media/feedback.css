@@ -3,7 +3,7 @@
     margin-top: 60px !important;
   }
   #feedback h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 auto 10px auto !important;
     line-height: 45px !important;
   }
@@ -42,7 +42,15 @@
     margin-top: 90px !important;
   }
   #feedback h2 {
-    font-size: 1.7rem;
+    font-size: 3rem;
+  }
+  #feedback .swiper-slide p {
+    width: 90% !important;
+    margin-left: 14px !important;
+  }
+  #feedback .feedback-header {
+    margin-left: 14px !important;
+    margin-top: 14px !important;
   }
 }
 @media (min-width: 480px) and (orientation: landscape) and (max-width: 999px) {
