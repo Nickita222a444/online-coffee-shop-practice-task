@@ -15,7 +15,7 @@
     width: 98% !important;
   }
   #reviews-count-info {
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
   }
   #customers-rate {
     font-size: 1.3rem !important;
@@ -58,12 +58,13 @@
     margin-top: 12px !important;
   }
   #feedback h2 {
-    font-size: 1.3rem !important;
+    font-size: 3rem !important;
     line-height: 23px !important;
-    margin-bottom: 8px !important;
+    margin-bottom: 27px !important;
   }
   #feedback .feedback-header {
     margin-top: 4px !important;
+    margin-left: 14px !important;
   }
   #feedback .swiper-slide {
     transform: scale(0.9);
@@ -74,6 +75,11 @@
   }
   #feedback .swiper-slide {
     bottom: 13px;
+  }
+  #feedback .swiper-slide p {
+    width: 90% !important;
+    margin-left: 14px !important;
+    margin-top: 15px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1365px) {

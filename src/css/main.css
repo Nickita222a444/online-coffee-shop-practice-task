@@ -491,7 +491,7 @@ footer p {
     width: 98% !important;
   }
   #reviews-count-info {
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
   }
   #customers-rate {
     font-size: 1.3rem !important;
@@ -534,12 +534,13 @@ footer p {
     margin-top: 12px !important;
   }
   #feedback h2 {
-    font-size: 1.3rem !important;
+    font-size: 3rem !important;
     line-height: 23px !important;
-    margin-bottom: 8px !important;
+    margin-bottom: 27px !important;
   }
   #feedback .feedback-header {
     margin-top: 4px !important;
+    margin-left: 14px !important;
   }
   #feedback .swiper-slide {
     transform: scale(0.9);
@@ -550,6 +551,11 @@ footer p {
   }
   #feedback .swiper-slide {
     bottom: 13px;
+  }
+  #feedback .swiper-slide p {
+    width: 90% !important;
+    margin-left: 14px !important;
+    margin-top: 15px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1365px) {
@@ -632,6 +638,7 @@ footer p {
     max-height: 400px !important;
     object-fit: contain;
     width: 100%;
+    margin-top: 50px;
   }
 }
 @media (min-width: 480px) and (orientation: portrait) and (max-width: 999px) {
@@ -651,11 +658,36 @@ footer p {
     max-height: 400px !important;
     object-fit: contain;
     width: 100%;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 480px) and (orientation: landscape) and (max-width: 999px) {
+  #order-sec {
+    margin-top: 60px;
+  }
+  #order-sec h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  #order-sec img {
+    max-height: 400px !important;
+    object-fit: contain;
+    width: 60%;
+    margin-top: 50px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1365px) {
+  #order-sec {
+    margin-top: 60px;
+  }
   #order-sec p {
     font-size: 22px;
+  }
+  #order-sec img {
+    max-height: 400px !important;
+    object-fit: contain;
+    width: 60%;
+    margin-top: 50px;
   }
   h3 {
     font-size: 3rem !important;
@@ -663,9 +695,110 @@ footer p {
   }
 }
 @media (min-width: 1366px) and (max-width: 1439px) {
+  #order-sec {
+    margin-top: 120px;
+  }
   h3 {
     font-size: 2.8rem !important;
     line-height: 60px !important;
+  }
+}
+@media (min-width: 340px) and (max-width: 479px) {
+  #explore-sec {
+    height: auto;
+  }
+  #explore-sec .container {
+    top: 40px;
+  }
+  #explore-sec p {
+    margin-bottom: 8px !important;
+  }
+  #explore-sec h3 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 0 auto 10px auto !important;
+    line-height: 45px !important;
+  }
+  #explore-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 480px) and (orientation: portrait) {
+  #explore-sec {
+    height: auto;
+  }
+  #explore-sec .container {
+    top: 40px;
+  }
+  #explore-sec p {
+    margin-bottom: 0 !important;
+  }
+  #explore-sec h2 {
+    font-size: 2rem;
+    margin: 0 auto 10px auto !important;
+    line-height: 45px !important;
+  }
+  #explore-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 480px) and (orientation: landscape) and (max-width: 999px) {
+  #explore-sec {
+    height: auto;
+    width: 100vw;
+  }
+  #explore-sec .container {
+    top: 40px;
+  }
+  #explore-sec #explore-cards {
+    width: 100%;
+  }
+  #explore-sec p {
+    margin-bottom: 0 !important;
+  }
+  #explore-sec h2 {
+    font-size: 3rem;
+  }
+  #explore-sec h3 {
+    font-size: 2rem !important;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1365px) {
+  #explore-sec {
+    height: auto;
+    width: 100vw;
+  }
+  #explore-sec .container {
+    top: 40px;
+  }
+  #explore-sec #explore-cards {
+    width: 100%;
+  }
+  #explore-sec p {
+    margin-bottom: 0 !important;
+  }
+  #explore-sec h2 {
+    font-size: 3rem;
+  }
+  #explore-sec h3 {
+    font-size: 2rem !important;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+  #explore-sec {
+    height: auto;
+  }
+  #explore-sec .container {
+    top: 70px;
+  }
+  #explore-sec p {
+    margin-bottom: 30px !important;
   }
 }
 
