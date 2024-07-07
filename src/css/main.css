@@ -801,5 +801,27 @@ footer p {
     margin-bottom: 30px !important;
   }
 }
+@media ((min-width: 340px) and (max-width: 1184px)) {
+  footer {
+    margin-top: 40px;
+  }
+  footer input {
+    width: 90% !important;
+  }
+  footer p {
+    width: 100%;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  footer #logo {
+    transform: scale(0.8);
+  }
+  footer address h3, footer #store-locs, footer #store-locs ~ div {
+    margin-top: 18px;
+  }
+  footer h3 {
+    font-size: 32px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
