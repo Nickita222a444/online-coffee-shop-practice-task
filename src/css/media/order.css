@@ -1,4 +1,4 @@
-@media (min-width: 340px) and (max-width: 479px) {
+@media (min-width: 0px) and (max-width: 479px) {
   #order-sec .container {
     flex-wrap: wrap;
     justify-content: space-around;
