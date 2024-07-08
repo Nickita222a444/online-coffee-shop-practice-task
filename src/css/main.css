@@ -64,6 +64,20 @@ header {
 #header-menu li:last-child {
   margin-right: 0;
 }
+#header-menu li:nth-child(-n+4):hover:after, #header-menu li:nth-child(-n+4):focus:after {
+  width: 100%;
+}
+#header-menu li:nth-child(-n+4):after {
+  display: block;
+  height: 2px;
+  width: 0%;
+  content: "";
+  background-color: #1B1B1D;
+  transition: width 0.4s ease-in-out;
+}
+#header-menu li:nth-child(-n+4):hover {
+  color: #1B1B1D;
+}
 
 .container {
   max-width: 82%;
@@ -103,12 +117,18 @@ header {
 #backet-btn img {
   padding: 16px;
 }
+#backet-btn:hover {
+  background-color: #CCCCCC;
+}
 
 .btn {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #1B1B1D;
+}
+.btn:hover {
+  background-color: #64646A;
 }
 .btn a {
   text-decoration: none;
@@ -140,7 +160,20 @@ header {
   text-transform: uppercase;
   font-weight: 500;
   text-decoration: none;
-  border-bottom: 1px solid #1B1B1D;
+}
+#shop-link:hover:after, #shop-link:focus:after {
+  width: 100%;
+}
+#shop-link:after {
+  display: block;
+  height: 2px;
+  width: 0%;
+  content: "";
+  background-color: #1B1B1D;
+  transition: width 0.4s ease-in-out;
+}
+#shop-link:hover {
+  color: #1B1B1D;
 }
 
 .greeting-links {
@@ -327,6 +360,25 @@ footer p {
   line-height: 40px;
 }
 
+.contact:hover:after, .contact:focus:after {
+  width: 100%;
+}
+.contact:after {
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #1B1B1D;
+  transition: width 0.4s ease-in-out;
+}
+.contact:hover {
+  color: #1B1B1D;
+}
+
+#social-media .circle:hover {
+  background-color: #CCCCCC;
+}
+
 .circle {
   display: inline-flex;
   justify-content: center;
@@ -354,6 +406,20 @@ footer p {
   font-size: 18px;
   margin-top: 30px;
   vertical-align: middle;
+}
+#store-locs a:hover:after, #store-locs a:focus:after {
+  width: 100%;
+}
+#store-locs a:after {
+  display: block;
+  height: 2px;
+  width: 0%;
+  content: "";
+  background-color: #1B1B1D;
+  transition: width 0.4s ease-in-out;
+}
+#store-locs a:hover {
+  color: #1B1B1D;
 }
 #store-locs img {
   vertical-align: middle;
@@ -458,11 +524,19 @@ footer p {
 #feedback #cards {
   position: relative;
 }
+#feedback .swiper-button-next img:hover, #feedback .swiper-rtl .swiper-button-prev img:hover {
+  background-color: #CCCCCC;
+  border-radius: 50%;
+}
 #feedback .swiper-button-next::after, #feedback .swiper-rtl .swiper-button-prev::after {
   display: none;
 }
 #feedback .swiper-button-prev, #feedback .swiper-button-next {
   top: 50% !important;
+}
+#feedback .swiper-button-prev img:hover, #feedback .swiper-button-next img:hover {
+  background-color: #CCCCCC;
+  border-radius: 50%;
 }
 #feedback .swiper-button-prev::after, #feedback .swiper-button-next::after {
   display: none;
