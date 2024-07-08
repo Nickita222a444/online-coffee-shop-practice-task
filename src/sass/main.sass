@@ -110,11 +110,6 @@ header
         position: absolute
         top: 31px
 
-#circles
-    position: absolute
-    top: 92px
-    right: 42px
-
 #rating
     background-color: $white
     border-radius: 24px
@@ -378,8 +373,31 @@ footer
         &::after
             display: none
 
+#burger-icon
+    display: inline-block
+    float: right
+
+#burger-line-1, #burger-line-2, #burger-line-3
+    width: 35px
+    height: 5px
+    background-color: $black
+    margin: 6px 0
+    border-radius: 20px
+
+.change #burger-line-1
+  transform: rotate(-45deg) translate(-9px, 6px)
+
+
+.change #burger-line-2 
+  opacity: 0
+
+
+.change #burger-line-3
+  transform: rotate(45deg) translate(-8px, -8px)
+
 @import "media/feedback"
 @import "media/order"
 @import "media/explore"
 @import "media/footer"
+@import "media/greeting"
     

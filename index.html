@@ -9,10 +9,11 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script type="module" src="/src/js/swiper.js"></script>
+    <script src="/src/js/burger-menu.js"></script>
     <title>Online Coffee Shop</title>
   </head>
   <body>
-    <!-- <section id="greeting-sec">
+    <section id="greeting-sec">
       <div class="container">
         <header>
           <img
@@ -36,9 +37,14 @@
               </div>
             </li>
           </ul>
+          <div id="burger-icon" onclick="showMenu()">
+            <div id="burger-line-1"></div>
+            <div id="burger-line-2"></div>
+            <div id="burger-line-3"></div>
+          </div>
         </header>
         <div id="greeting-info">
-          <div>
+          <div id="greeting-main">
             <h1>Alowishus Delicious Coffee</h1>
             <p>
               A drink from the ‘My Alowishus’ bottled brews <br />range OR grab
@@ -55,11 +61,7 @@
             <img
               src="/img/coffee-cap.svg"
               alt="The example of our coffee product"
-            />
-            <img
-              src="/img/circles.svg"
-              alt="Circles surrounding the coffee cap"
-              id="circles"
+              id="log"
             />
             <article id="rating">
               <img src="/img/star-icon.svg" alt="The icon of a star" />
@@ -73,7 +75,7 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     <section id="explore-sec">
       <div class="container">
         <h2>Explore Our Alowishus</h2>
